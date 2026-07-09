@@ -1,12 +1,10 @@
-"use client"
-
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <Button>
-       Click me
-    </Button>
+     <Button variant="outline" size="xs">
+      Click me
+     </Button>
   );
 }
