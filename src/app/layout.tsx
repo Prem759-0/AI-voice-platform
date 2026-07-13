@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   title: "EchoForge AI",
   description:
     "The next-generation AI voice platform for realistic text-to-speech, voice cloning, custom voice libraries, and professional audio creation.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
+
 
 export default function RootLayout({
   children,
