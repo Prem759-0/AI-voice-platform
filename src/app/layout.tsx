@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "The next-generation AI voice platform for realistic text-to-speech, voice cloning, custom voice libraries, and professional audio creation.",
   icons: {
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
 };
 
