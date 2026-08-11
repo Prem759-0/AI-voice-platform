@@ -155,9 +155,28 @@ export function DashboardSidebar() {
                     </span>
                     <SidebarTrigger className="ml-auto lg:hidden" />
                 </div>
+                <SidebarMenu>
+                    <SidebarMenuItem>
+                        <OrganizationSwitcher
+                            hidePersonal
+                        />
+                    </SidebarMenuItem>
+                </SidebarMenu>
+
             </SidebarHeader>
+            <div className="border-b border-dashed border-border" />
+            <SidebarContent>
+                <NavSection
+                    items={mainMenuItems}
+                    pathname={pathname}
+                />
+                <NavSection
+                    label="Others"
+                    items={othersMenuItems}
+                    pathname={pathname}
+                />
+            </SidebarContent>
         </Sidebar>
     );
-
 }
 
