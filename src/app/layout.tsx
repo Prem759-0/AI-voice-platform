@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EchoForge AI",
+  title:{
+    default: "EchoForge AI",
+    template: "%s | EchoForge AI"
+  },
   description:
     "The next-generation AI voice platform for realistic text-to-speech, voice cloning, custom voice libraries, and professional audio creation.",
   icons: {
